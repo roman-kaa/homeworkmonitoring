@@ -38,11 +38,11 @@ sudo nmap -sV < ip-адрес >
 Fail2Ban во время выполнения сканирования не сработал. Это ожидаемое поведение, так как Fail2Ban анализирует журналы сервисов (например, SSH, Apache, Nginx) и реагирует на многократные неудачные попытки аутентификации, а не на сетевое сканирование портов.
 
 
-[fast.log](https://github.com/roman-kaa/homework/blob/main/syssec55/hw02/src/fast.log)
-[fail2ban.log](https://github.com/roman-kaa/homework/blob/main/syssec55/hw02/src/fail2ban.log)
+[fast.log](https://github.com/roman-kaa/homework/blob/main/SYSSEC55/hw02/src/fast.log)
+[fail2ban.log](https://github.com/roman-kaa/homework/blob/main/SYSSEC55/hw02/src/fail2ban.log)
 
 
-![Screen01](https://github.com/roman-kaa/homework/blob/main/syssec55/hw02/img/img0201.png)
+![Screen01](https://github.com/roman-kaa/homework/blob/main/SYSSEC55/hw02/img/img0201.png)
 
 ```
 Поле для вставки кода...
