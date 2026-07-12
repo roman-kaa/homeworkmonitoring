@@ -44,17 +44,6 @@ Fail2Ban во время выполнения сканирования не ср
 
 ![Screen01](https://github.com/roman-kaa/homework/blob/main/SYSSEC55/hw02/img/img0201.png)
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
-
 
 ---
 
@@ -80,9 +69,10 @@ Fail2Ban во время выполнения сканирования не ср
 
 Дополнительная информация по **Fail2Ban**:https://putty.org.ru/articles/fail2ban-ssh.html.
 
+[2fail2ban.log](https://github.com/roman-kaa/homework/blob/main/SYSSEC55/hw02/src/2fail2ban.log)
 
 
-*В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.*
+![Screen01](https://github.com/roman-kaa/homework/blob/main/SYSSEC55/hw02/img/img0202.png)
 
 ```
 Поле для вставки кода...

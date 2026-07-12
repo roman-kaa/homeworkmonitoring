@@ -1,0 +1,123 @@
+2026-07-12 12:10:58,789 fail2ban.server         [16718]: INFO    --------------------------------------------------
+2026-07-12 12:10:58,789 fail2ban.server         [16718]: INFO    Starting Fail2ban v1.1.0
+2026-07-12 12:10:58,789 fail2ban.observer       [16718]: INFO    Observer start...
+2026-07-12 12:10:58,792 fail2ban.database       [16718]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2026-07-12 12:10:58,793 fail2ban.database       [16718]: WARNING New database created. Version '4'
+2026-07-12 12:10:58,793 fail2ban.jail           [16718]: INFO    Creating new jail 'sshd'
+2026-07-12 12:10:58,799 fail2ban.jail           [16718]: INFO    Jail 'sshd' uses systemd {}
+2026-07-12 12:10:58,799 fail2ban.jail           [16718]: INFO    Initiated 'systemd' backend
+2026-07-12 12:10:58,800 fail2ban.filter         [16718]: INFO      maxLines: 1
+2026-07-12 12:10:58,805 fail2ban.filtersystemd  [16718]: INFO    [sshd] Added journal match for: '_SYSTEMD_UNIT=ssh.service + _COMM=sshd'
+2026-07-12 12:10:58,805 fail2ban.filter         [16718]: INFO      maxRetry: 5
+2026-07-12 12:10:58,805 fail2ban.filter         [16718]: INFO      findtime: 600
+2026-07-12 12:10:58,805 fail2ban.actions        [16718]: INFO      banTime: 600
+2026-07-12 12:10:58,805 fail2ban.filter         [16718]: INFO      encoding: UTF-8
+2026-07-12 12:10:58,806 fail2ban.filtersystemd  [16718]: INFO    [sshd] Jail is in operation now (process new journal entries)
+2026-07-12 12:10:58,811 fail2ban.jail           [16718]: INFO    Jail 'sshd' started
+2026-07-12 13:44:19,485 fail2ban.server         [16718]: INFO    Shutdown in progress...
+2026-07-12 13:44:19,485 fail2ban.observer       [16718]: INFO    Observer stop ... try to end queue 5 seconds
+2026-07-12 13:44:19,508 fail2ban.observer       [16718]: INFO    Observer stopped, 0 events remaining.
+2026-07-12 13:44:19,553 fail2ban.server         [16718]: INFO    Stopping all jails
+2026-07-12 13:44:19,732 fail2ban.actions        [16718]: NOTICE  [sshd] Flush ticket(s) with nftables
+2026-07-12 13:44:19,758 fail2ban.jail           [16718]: INFO    Jail 'sshd' stopped
+2026-07-12 13:44:19,759 fail2ban.database       [16718]: INFO    Connection to database closed.
+2026-07-12 13:44:19,759 fail2ban.server         [16718]: INFO    Exiting Fail2ban
+2026-07-12 14:02:21,040 fail2ban.server         [18451]: INFO    --------------------------------------------------
+2026-07-12 14:02:21,040 fail2ban.server         [18451]: INFO    Starting Fail2ban v1.1.0
+2026-07-12 14:02:21,041 fail2ban.observer       [18451]: INFO    Observer start...
+2026-07-12 14:02:21,045 fail2ban.database       [18451]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2026-07-12 14:02:21,045 fail2ban.jail           [18451]: INFO    Creating new jail 'sshd'
+2026-07-12 14:02:21,048 fail2ban.jail           [18451]: INFO    Jail 'sshd' uses systemd {}
+2026-07-12 14:02:21,048 fail2ban.jail           [18451]: INFO    Initiated 'systemd' backend
+2026-07-12 14:02:21,049 fail2ban.filter         [18451]: INFO      maxLines: 1
+2026-07-12 14:02:21,054 fail2ban.filtersystemd  [18451]: INFO    [sshd] Added journal match for: '_SYSTEMD_UNIT=ssh.service + _COMM=sshd'
+2026-07-12 14:02:21,054 fail2ban.filter         [18451]: INFO      maxRetry: 5
+2026-07-12 14:02:21,054 fail2ban.filter         [18451]: INFO      findtime: 600
+2026-07-12 14:02:21,054 fail2ban.actions        [18451]: INFO      banTime: 600
+2026-07-12 14:02:21,054 fail2ban.filter         [18451]: INFO      encoding: UTF-8
+2026-07-12 14:02:21,055 fail2ban.jail           [18451]: INFO    Jail 'sshd' started
+2026-07-12 14:02:21,055 fail2ban.filtersystemd  [18451]: INFO    [sshd] Jail is in operation now (process new journal entries)
+2026-07-12 14:08:45,563 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:45,564 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,059 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,060 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,060 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,061 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,061 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,061 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,061 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,061 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,061 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,062 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,062 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,062 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,062 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:45
+2026-07-12 14:08:46,807 fail2ban.actions        [18451]: NOTICE  [sshd] Ban 192.168.111.111
+2026-07-12 14:08:47,424 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,426 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,427 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,428 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,429 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,430 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,431 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,431 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,677 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,679 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,680 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,682 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:47,683 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:48,009 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:47
+2026-07-12 14:08:48,311 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:48
+2026-07-12 14:08:48,313 fail2ban.filter         [18451]: INFO    [sshd] Found 192.168.111.111 - 2026-07-12 14:08:48
+2026-07-12 14:14:23,722 fail2ban.server         [18451]: INFO    Shutdown in progress...
+2026-07-12 14:14:23,722 fail2ban.observer       [18451]: INFO    Observer stop ... try to end queue 5 seconds
+2026-07-12 14:14:23,744 fail2ban.observer       [18451]: INFO    Observer stopped, 0 events remaining.
+2026-07-12 14:14:23,783 fail2ban.server         [18451]: INFO    Stopping all jails
+2026-07-12 14:14:24,263 fail2ban.actions        [18451]: NOTICE  [sshd] Flush ticket(s) with nftables
+2026-07-12 14:14:24,268 fail2ban.actions        [18451]: NOTICE  [sshd] Unban 192.168.111.111
+2026-07-12 14:14:24,301 fail2ban.jail           [18451]: INFO    Jail 'sshd' stopped
+2026-07-12 14:14:24,301 fail2ban.database       [18451]: INFO    Connection to database closed.
+2026-07-12 14:14:24,301 fail2ban.server         [18451]: INFO    Exiting Fail2ban
+2026-07-12 14:08:49,225 fail2ban.server         [1243]: INFO    --------------------------------------------------
+2026-07-12 14:08:49,225 fail2ban.server         [1243]: INFO    Starting Fail2ban v1.1.0
+2026-07-12 14:08:49,226 fail2ban.observer       [1243]: INFO    Observer start...
+2026-07-12 14:08:49,235 fail2ban.database       [1243]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2026-07-12 14:08:49,235 fail2ban.jail           [1243]: INFO    Creating new jail 'sshd'
+2026-07-12 14:08:49,241 fail2ban.jail           [1243]: INFO    Jail 'sshd' uses systemd {}
+2026-07-12 14:08:49,241 fail2ban.jail           [1243]: INFO    Initiated 'systemd' backend
+2026-07-12 14:08:49,242 fail2ban.filter         [1243]: INFO      maxLines: 1
+2026-07-12 14:08:49,247 fail2ban.filtersystemd  [1243]: INFO    [sshd] Added journal match for: '_SYSTEMD_UNIT=ssh.service + _COMM=sshd'
+2026-07-12 14:08:49,247 fail2ban.filter         [1243]: INFO      maxRetry: 5
+2026-07-12 14:08:49,248 fail2ban.filter         [1243]: INFO      findtime: 600
+2026-07-12 14:08:49,248 fail2ban.actions        [1243]: INFO      banTime: 600
+2026-07-12 14:08:49,248 fail2ban.filter         [1243]: INFO      encoding: UTF-8
+2026-07-12 14:08:49,249 fail2ban.filtersystemd  [1243]: INFO    [sshd] Jail is in operation now (process new journal entries)
+2026-07-12 14:08:49,249 fail2ban.filter         [1243]: WARNING [sshd] Detected a log entry 5m 34s after the current time in operation mode. This looks like a timezone problem. Treating such entries as if they just happened.
+2026-07-12 14:08:49,249 fail2ban.filter         [1243]: WARNING [sshd] Please check a jail for a timing issue. Line with odd timestamp: 2026-07-12T14:14:23.579920+00:00 usrv sshd[17620]: Received signal 15; terminating.
+2026-07-12 14:08:49,257 fail2ban.jail           [1243]: INFO    Jail 'sshd' started
+2026-07-12 14:08:49,449 fail2ban.actions        [1243]: NOTICE  [sshd] Restore Ban 192.168.111.111
+2026-07-12 14:15:51,103 fail2ban.transmitter    [1243]: ERROR   Command ['status', 'ssh'] has failed. Received UnknownJailException('ssh')
+2026-07-12 14:18:46,100 fail2ban.actions        [1243]: NOTICE  [sshd] Unban 192.168.111.111
+2026-07-12 14:19:59,028 fail2ban.server         [1243]: INFO    Shutdown in progress...
+2026-07-12 14:19:59,029 fail2ban.observer       [1243]: INFO    Observer stop ... try to end queue 5 seconds
+2026-07-12 14:19:59,049 fail2ban.observer       [1243]: INFO    Observer stopped, 0 events remaining.
+2026-07-12 14:19:59,094 fail2ban.server         [1243]: INFO    Stopping all jails
+2026-07-12 14:19:59,145 fail2ban.actions        [1243]: NOTICE  [sshd] Flush ticket(s) with nftables
+2026-07-12 14:19:59,314 fail2ban.jail           [1243]: INFO    Jail 'sshd' stopped
+2026-07-12 14:19:59,315 fail2ban.database       [1243]: INFO    Connection to database closed.
+2026-07-12 14:19:59,315 fail2ban.server         [1243]: INFO    Exiting Fail2ban
+2026-07-12 14:19:59,400 fail2ban.server         [1998]: INFO    --------------------------------------------------
+2026-07-12 14:19:59,401 fail2ban.server         [1998]: INFO    Starting Fail2ban v1.1.0
+2026-07-12 14:19:59,401 fail2ban.observer       [1998]: INFO    Observer start...
+2026-07-12 14:19:59,402 fail2ban.database       [1998]: INFO    Connected to fail2ban persistent database '/var/lib/fail2ban/fail2ban.sqlite3'
+2026-07-12 14:19:59,403 fail2ban.jail           [1998]: INFO    Creating new jail 'sshd'
+2026-07-12 14:19:59,404 fail2ban.jail           [1998]: INFO    Jail 'sshd' uses systemd {}
+2026-07-12 14:19:59,405 fail2ban.jail           [1998]: INFO    Initiated 'systemd' backend
+2026-07-12 14:19:59,405 fail2ban.filter         [1998]: INFO      maxLines: 1
+2026-07-12 14:19:59,410 fail2ban.filtersystemd  [1998]: INFO    [sshd] Added journal match for: '_SYSTEMD_UNIT=ssh.service + _COMM=sshd'
+2026-07-12 14:19:59,410 fail2ban.filter         [1998]: INFO      maxRetry: 5
+2026-07-12 14:19:59,410 fail2ban.filter         [1998]: INFO      findtime: 600
+2026-07-12 14:19:59,410 fail2ban.actions        [1998]: INFO      banTime: 600
+2026-07-12 14:19:59,410 fail2ban.filter         [1998]: INFO      encoding: UTF-8
+2026-07-12 14:19:59,411 fail2ban.jail           [1998]: INFO    Jail 'sshd' started
+2026-07-12 14:19:59,412 fail2ban.filtersystemd  [1998]: INFO    [sshd] Jail is in operation now (process new journal entries)
